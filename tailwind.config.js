@@ -12,7 +12,10 @@ module.exports = {
         'raptureBlue': '#79C8C7',
         'lightCoral': '#F67E7E',
         'white': '#ffffff'
-      }
+      },
+      fontSize: {
+        'baseText': '18px'
+      },
     },
   },
   variants: {
