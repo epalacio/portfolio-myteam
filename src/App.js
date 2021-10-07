@@ -1,7 +1,12 @@
+import Navbar from "./components/Navbar.component";
+
 const App = () => {
   return (
-    <div className="App">
-      <h1 className='text-3xl text-blue'>App</h1>
+    <div className="App bg-midnightGreen h-screen w-screen">
+      <Navbar />
+      <div className='max-w-screen-xl mx-auto'>
+
+      </div>
     </div>
   );
 }
