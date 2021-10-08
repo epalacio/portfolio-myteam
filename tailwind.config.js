@@ -17,12 +17,18 @@ module.exports = {
         'baseText': '18px',
         'heroDesktop': '100px',
         'heroTablet': '64px',
-        'heroMobile': '40px'
+        'heroMobile': '40px',
+        'sectionDesktop': '48px',
+        'sectionMobile': '32px',
       },
       backgroundImage: {
         'heroBg': "url('/src/img/heroBg.svg')",
-        'heroBg2': "url('/src/img/heroBg2.svg')"
-      }
+        'heroBg2': "url('/src/img/heroBg2.svg')",
+        'featuresBg': "url('/src/img/featuresBg.svg')"
+      },
+      minWidth: {
+        'featuresIcon': '72px'
+      },
     },
   },
   variants: {
