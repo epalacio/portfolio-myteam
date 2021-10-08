@@ -24,10 +24,14 @@ module.exports = {
       backgroundImage: {
         'heroBg': "url('/src/img/heroBg.svg')",
         'heroBg2': "url('/src/img/heroBg2.svg')",
-        'featuresBg': "url('/src/img/featuresBg.svg')"
+        'featuresBg': "url('/src/img/featuresBg.svg')",
+        'iconQuote': "url('/src/img/icon-quotes.svg')"
       },
       minWidth: {
         'featuresIcon': '72px'
+      },
+      maxWidth: {
+        'avatars': '62px'
       },
     },
   },
