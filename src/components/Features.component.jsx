@@ -33,7 +33,7 @@ const Features = () => {
                     <hr className='block w-2/12 md:w-1/12 border-t-4 border-lightCoral pb-2'/>
                 </div>
                 <div className='flex flex-col lg:flex-row'>
-                    <h2 className='text-white text-sectionMobile lg:text-sectionDesktop md:mr-4 mb-12 mt-4 md:mb-0'>Build & manage distributed teams like no one else.</h2>
+                    <h2 className='text-white text-sectionMobile lg:text-sectionDesktop md:mr-4 mb-12 mt-4 md:mb-0 leading-tight'>Build & manage distributed teams like no one else.</h2>
                     <div>
                         {featuresContent.map(feature => (
                             <div key={feature.id} className='my-8 flex flex-col md:flex-row items-center justify-between text-center md:text-left'>
