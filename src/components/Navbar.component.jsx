@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   return (
-    <div className='max-w-screen-xl mx-auto'>
+    <div className='max-w-screen-xl mx-auto pt-6'>
       <nav className='relative'>
         <div className='max-w-7xl mx-auto px-4'>
           <div className='flex items-center justify-between h-16'>
