@@ -14,8 +14,15 @@ module.exports = {
         'white': '#ffffff'
       },
       fontSize: {
-        'baseText': '18px'
+        'baseText': '18px',
+        'heroDesktop': '100px',
+        'heroTablet': '64px',
+        'heroMobile': '40px'
       },
+      backgroundImage: {
+        'heroBg': "url('/src/img/heroBg.svg')",
+        'heroBg2': "url('/src/img/heroBg2.svg')"
+      }
     },
   },
   variants: {
