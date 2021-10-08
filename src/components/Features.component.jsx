@@ -26,7 +26,7 @@ const Features = () => {
         },
     ]
     return (
-        <section className='bg-sacramentoGreen relative'>
+        <section className='bg-sacramentoGreen relative overflow-x-hidden'>
             <img className='lg:block absolute right-0 top-0 -mr-32' src={featuresBg} alt="features background circle" />
             <div className="max-w-screen-xl mx-auto w-4/5 py-20">
                 <div>
