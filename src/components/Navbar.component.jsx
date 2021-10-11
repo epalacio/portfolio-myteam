@@ -21,7 +21,7 @@ const Navbar = () => {
                     <div className='hidden md:block'>
                         <div className='ml-10 flex items-baseline space-x-4'>
                             <a href='/' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold'>home</a>
-                            <a href='/' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold'>about</a>
+                            <a href='/about' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold'>about</a>
                         </div>
                     </div>
                 </div>

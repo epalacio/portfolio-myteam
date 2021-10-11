@@ -26,7 +26,8 @@ module.exports = {
         'heroBg2': "url('/src/img/heroBg2.svg')",
         'featuresBg': "url('/src/img/featuresBg.svg')",
         'iconQuote': "url('/src/img/icon-quotes.svg')",
-        'startedBg': "url('/src/img/startedBg.svg')"
+        'startedBg': "url('/src/img/startedBg.svg')",
+        'navMenu': "url('/src/img/navMenu.svg')"
       },
       minWidth: {
         'featuresIcon': '72px'
