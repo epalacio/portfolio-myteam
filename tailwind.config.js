@@ -15,6 +15,7 @@ module.exports = {
       },
       fontSize: {
         'baseText': '18px',
+        'subtitle': '15px',
         'heroDesktop': '100px',
         'heroTablet': '64px',
         'heroMobile': '40px',
@@ -27,13 +28,20 @@ module.exports = {
         'featuresBg': "url('/src/img/featuresBg.svg')",
         'iconQuote': "url('/src/img/icon-quotes.svg')",
         'startedBg': "url('/src/img/startedBg.svg')",
-        'navMenu': "url('/src/img/navMenu.svg')"
+        'navMenu': "url('/src/img/navMenu.svg')",
+        'aboutTeamBg': "url('/src/img/aboutTeamBg.svg')"
+      },
+      width: {
+        'teamMobile': '328px',
+        'teamTablet': '280px',
+        'teamDesktop': '350px'
       },
       minWidth: {
         'featuresIcon': '72px'
       },
       maxWidth: {
-        'avatars': '62px'
+        'avatars': '62px',
+        'teamAvatars': '96px'
       },
     },
   },
