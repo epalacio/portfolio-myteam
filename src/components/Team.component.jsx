@@ -47,8 +47,8 @@ const Team = () => {
         },
     ]
     return (
-        <div className='bg-jungleGreen lg:bg-aboutTeamBg bg-no-repeat'>
-            <div className='max-w-screen-xl mx-auto text-center mt-12 py-12'>
+        <section className='bg-jungleGreen lg:bg-aboutTeamBg bg-no-repeat'>
+            <div className='max-w-screen-xl mx-auto text-center py-12'>
                 <h2 className='text-white text-sectionMobile lg:text-sectionDesktop md:mr-4 my-12 leading-tight'>Meet the directors</h2>
                 <div className='flex flex-col md:flex-row flex-wrap'>
                     {team.map(member => (
@@ -61,7 +61,7 @@ const Team = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
  

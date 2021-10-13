@@ -29,7 +29,8 @@ module.exports = {
         'iconQuote': "url('/src/img/icon-quotes.svg')",
         'startedBg': "url('/src/img/startedBg.svg')",
         'navMenu': "url('/src/img/navMenu.svg')",
-        'aboutTeamBg': "url('/src/img/aboutTeamBg.svg')"
+        'aboutTeamBg': "url('/src/img/aboutTeamBg.svg')",
+        'clientsBg': "url('/src/img/clientsBg.svg')"
       },
       width: {
         'teamMobile': '328px',
@@ -41,7 +42,8 @@ module.exports = {
       },
       maxWidth: {
         'avatars': '62px',
-        'teamAvatars': '96px'
+        'teamAvatars': '96px',
+        'clients': '120px'
       },
     },
   },
