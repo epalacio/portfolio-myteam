@@ -15,11 +15,11 @@ const App = () => {
           <Route exact path='/'>
             <Home/>
           </Route>
+          {/* <Route>
+            <About exact path='/about'/>
+          </Route> */}
           <Route>
-            <About path='/about'/>
-          </Route>
-          <Route>
-            <ContactUs path='/contact'/>
+            <ContactUs exact path='/contactUs'/>
           </Route>
         </Switch>
       </div>
