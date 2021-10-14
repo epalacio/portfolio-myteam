@@ -26,7 +26,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='hidden md:block'>
-                    <a href='/' className='text-white hover:text-sacramentoGreen hover:bg-white px-4 py-2 text-baseText font-semibold rounded-full border-2 border-white'>contact us</a>
+                    <a href='/contactUs' className='text-white hover:text-sacramentoGreen hover:bg-white px-4 py-2 text-baseText font-semibold rounded-full border-2 border-white'>contact us</a>
                 </div>
             </div>
             <div className='-mr-2 flex md:hidden'>
@@ -92,7 +92,7 @@ const Navbar = () => {
                     <a href='/' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold'>home</a>
                     <a href='/' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold mt-6 mb-10'>about</a>
                     <div className='block px-3 py-2 w-full'>
-                        <a href='/' className='text-white hover:text-sacramentoGreen hover:bg-white px-4 py-2 text-baseText font-semibold rounded-full border-2 border-white'>contact us</a>
+                        <a href='/contactUs' className='text-white hover:text-sacramentoGreen hover:bg-white px-4 py-2 text-baseText font-semibold rounded-full border-2 border-white'>contact us</a>
                     </div>
                 </div>
                 <div className='flex justify-end -mr-24'>
