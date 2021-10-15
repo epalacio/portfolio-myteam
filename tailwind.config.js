@@ -9,6 +9,7 @@ module.exports = {
         'jungleGreen': '#004047',
         'midnightGreen': '#014E56',
         'policeBlue': '#2C6269',
+        'towerGray': '#99a8a9',
         'raptureBlue': '#79C8C7',
         'lightCoral': '#F67E7E',
         'white': '#ffffff'
