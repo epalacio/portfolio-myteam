@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Transition } from '@headlessui/react';
 
 import navLogo from '../img/logo.svg'
@@ -20,8 +21,8 @@ const Navbar = () => {
                     </div>
                     <div className='hidden md:block'>
                         <div className='ml-10 flex items-baseline space-x-4'>
-                            <a href='/' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold'>home</a>
-                            <a href='/about' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold'>about</a>
+                            <Link to='/' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold'>home</Link>
+                            <Link to='/about' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold'>about</Link>
                         </div>
                     </div>
                 </div>
@@ -89,10 +90,10 @@ const Navbar = () => {
           {(ref) => (
             <div className='md:hidden flex flex-col justify-between w-4/5 absolute right-0 bg-midnightGreen h-screen' id='mobile-menu'>
                 <div ref={ref} className='pt-2 pb-3 divide-y-1 divide-graySuit text-center flex flex-col mt-10'>
-                    <a href='/' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold'>home</a>
-                    <a href='/' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold mt-6 mb-10'>about</a>
+                    <Link to='/' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold'>home</Link>
+                    <Link to='/about' className='text-white hover:text-lightCoral px-3 py-2 text-baseText font-semibold mt-6 mb-10'>about</Link>
                     <div className='block px-3 py-2 w-full'>
-                        <a href='/contactUs' className='text-white hover:text-sacramentoGreen hover:bg-white px-4 py-2 text-baseText font-semibold rounded-full border-2 border-white'>contact us</a>
+                        <Link to='/contactUs' className='text-white hover:text-sacramentoGreen hover:bg-white px-4 py-2 text-baseText font-semibold rounded-full border-2 border-white'>contact us</Link>
                     </div>
                 </div>
                 <div className='flex justify-end -mr-24'>
