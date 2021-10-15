@@ -2,6 +2,7 @@ import iconFeature1 from '../img/icon-person.svg'
 import iconFeature2 from '../img/icon-cog.svg'
 import iconFeature3 from '../img/icon-chart.svg'
 import Form from '../components/Form.component'
+import Footer from '../components/Footer.component'
 
 const ContactUs = () => {
     const features = [
@@ -39,6 +40,7 @@ const ContactUs = () => {
                 </div>
             </div>
             <Form />
+            <Footer />
         </section>  
     );
 }
